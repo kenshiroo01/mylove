@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.image-container {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    margin: 20px; /* Add 20px margin around each container */
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+        
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.message-container {
+    border: 2px solid black; /* Add a 2px black border */
+    border-radius: 10px; /* Add rounded corners */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #ffa4b6;
+    text-align: center; 
+}
+
+#message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff3b9b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+header {
+    background-color: #ff3b9b;
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align items vertically */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav a {
+    text-decoration: none; /* Removes the underline */
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .text-container {
+    /* Customize the text container as needed */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+body {
+    background-image: url('images/bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
